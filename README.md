@@ -133,6 +133,7 @@ Each role operates through a dedicated, access-controlled interface based on Rol
 
 ## 🏗️ Project Structure
 
+```
 Saloon_Management_System/
 ├── src/main/java/org/example/
 │   ├── config/          # Security, CORS, password config, data initializer
@@ -146,41 +147,44 @@ Saloon_Management_System/
 │   ├── templates/       # Thymeleaf HTML views
 │   └── application.properties
 └── pom.xml
-
+```
 
 ---
 
 ## ⚙️ Getting Started
 
 ### Prerequisites
--Java 17+
--Maven 3.6+
--Microsoft SQL Server (running on port 1433)
+- Java 17+
+- Maven 3.6+
+- Microsoft SQL Server (running on port `1433`)
 
----
+### Setup
 
-### Setup Instructions
-
-1. Clone the repository:
-git clone https://github.com/your-username/salon-management-system.git
+1. **Clone the repository**
+```bash
+   git clone https://github.com/your-username/salon-management-system.git
    cd salon-management-system/Saloon_Management_System
+```
 
-2. Configure the database
-Create a SQL Server database named MergedISP, then update src/main/resources/application.properties:
+2. **Configure the database**
 
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=MergedISP;encrypt=true;trustServerCertificate=true
+   Create a SQL Server database named `MergedISP`, then update `src/main/resources/application.properties`:
+```properties
+   spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=MergedISP;encrypt=true;trustServerCertificate=true
    spring.datasource.username=your_username
    spring.datasource.password=your_password
+```
 
-3. Run the application
+3. **Run the application**
+```bash
+   mvn spring-boot:run
+```
 
-bash   mvn spring-boot:run
+4. **Access the application**
 
-4. Access the application
+   Open your browser and navigate to: `http://localhost:8080`
 
-Open your browser and navigate to: http://localhost:8080
-
-The app uses spring.jpa.hibernate.ddl-auto=update, so database tables are created/updated automatically on first run.
+> The app uses `spring.jpa.hibernate.ddl-auto=update`, so database tables are created/updated automatically on first run.
 
 ---
 
