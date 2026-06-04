@@ -219,8 +219,5 @@ This was a collaborative group project. The system was divided into epics, each 
 ## 📌 License
 
 This project was developed for academic purposes. All rights reserved by the project team.
-## 📌 License
-
-This project was developed for academic purposes. All rights reserved by the project team.
 
 ---
