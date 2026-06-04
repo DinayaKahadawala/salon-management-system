@@ -200,20 +200,25 @@ This was a collaborative group project. The system was divided into epics, each 
 ---
 
 ## 🏆 Achievement
--Selected for ISE Project Showcase 2026
--Awarded 1st Runner-Up
--IE2091 – Information Systems Project (SLIIT)
+
+- Selected for IE2091 Project Showcase 2026  
+- Awarded 1st Runner-Up  
+- IE2091 – Information Systems Project (SLIIT)
 
 ---
 
 ## 📄 Academic Context
--Module: IE2091 – Information Systems Project
--Year: 2nd Year, 2nd Semester
--Institution: Sri Lanka Institute of Information Technology (SLIIT)
--Methodology: Agile / Scrum-based development
+
+- Module: IE2091 – Information Systems Project  
+- Year: 2nd Year, 2nd Semester  
+- Institution: Sri Lanka Institute of Information Technology (SLIIT)  
+- Methodology: Agile / Scrum-based development  
 
 ---
 
+## 📌 License
+
+This project was developed for academic purposes. All rights reserved by the project team.
 ## 📌 License
 
 This project was developed for academic purposes. All rights reserved by the project team.
